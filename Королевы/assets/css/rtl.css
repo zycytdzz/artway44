@@ -1,0 +1,445 @@
+ 
+ 
+.quze-sort a{margin-right:30px;}
+.quze-sort a:first-child{margin-right:30px;}
+.quze-sort a:last-child{margin-right:0;}
+textarea,input[type='text']{text-align:right;}
+.quze-subscribe{margin-right:auto;margin-left:auto;} 
+.quze-izotope{margin-right:auto;margin-left:auto;}
+.quze-izotope-item:after{right:0;}
+.quze-izotope-icon{right:0;left:0;}
+.quze-pagination li:after{left:0;}
+.quze-pagination li.active:after{right:-10px;}
+.quze-pagination_style2 li.active:after{right:0;left:0;}
+ 
+ 
+ 
+.main-menu li{text-align:right;}
+ 
+.main-menu li.current_page_item > a:before{right:0;}
+.main-menu .sub-menu{text-align:right;}
+ 
+ 
+.quze-globe-list{right:0;left:0;}
+.quze-search:after,.quze-share:after{border-width:0 7px 7px 7px;border-color:transparent transparent #fff transparent;right:0;left:0;}
+.quze-share-block{right:0;text-align:right;}
+.quze-search-form{right:0;}
+ 
+.quze-blockquote{margin-right:auto;margin-left:auto;}
+.quze-blockquote blockquote:after{right:0;left:0;}
+.quze-slider{margin-right:auto;margin-left:auto;} 
+.quze-slider-item-wrap:after{right:0;}
+ 
+.quze-about-item__text{margin-right:auto;margin-left:auto;}
+.quze-about .quze-header{margin-right:auto;margin-left:auto;}
+  
+.quze-header.quze-header_left{text-align:right;margin-right:0;}
+.quze-category-icon{right:0;}
+.quze-category-item{text-align:right;}
+.quze-category-item:hover .quze-category-icon{right:0;left:0;}
+.quze-category-item__text .title3 a, .quze-category-item__text .title3{
+    max-width: 240px;
+}
+ 
+ 
+.quze-service-tab{margin-right:auto;margin-left:auto;}
+.quze-service-tab-img svg{margin-right:auto;margin-left:auto;}
+.quze-service-tab-info{text-align:right;}
+.quze-service-tab .tabs-item-icon{right: 50px;} 
+ 
+.quze-service-tab .tabs-item-info{text-align:right;}
+.quze-analysis-slider{text-align:right;padding-right:140px;}
+.quze-analysis-slider .quze-header{text-align:right;}
+.quze-analysis .swiper-slide{text-align:right;}
+ .quze-analysis .swiper-button-next{
+    left: 100px;
+ }
+ .quze-analysis .swiper-button-prev{
+    text-align: left;
+ }
+.quze-analysis > p, .quze-analysis-slider-info p{
+    max-width: 100% ;
+} 
+.quze-count:before{left:0;right:0;}
+.quze-count p{margin-right:auto;margin-left:auto;}
+.quze-skills-info{padding-right:120px;text-align:right;}
+.quze-skills-info .quze-header{text-align:right;}
+ 
+.quze-skills-item{padding:26px 85px 26px 100px;}
+.quze-skills-item:after{right:0;}
+.quze-skills-name{text-align:left;}
+.quze-success-item:after{right:0;}
+ 
+.quze-features-item:before{right:5px;}
+.quze-features-item:nth-child(2n){padding-right:45px;}
+.quze-features-item:nth-child(2n):before{right:25px;}
+ .quze-service-tab .tabs-item-list li:before{
+    left: auto;
+    right: -30px;
+ }
+.quze-features-item-info{text-align:right;}
+.quze-features .quze-header{text-align:right;margin-right:0;padding-right:130px;padding-left:130px;}
+.quze-portfolio .swiper-button-prev,.quze-portfolio .swiper-container-rtl .swiper-button-prev{right:0;}
+.quze-portfolio .swiper-container-rtl .swiper-button-next,.quze-portfolio .swiper-button-next{left:0;}
+.quze-portfolio .tabs-header li:after{right:0;} 
+.quze-portfolio-items{margin-right:auto;margin-left:auto;}
+.quze-portfolio-item{padding-right:140px;padding-left:140px;}
+.quze-portfolio-info .title3{margin-right:auto;margin-left:auto;}
+.quze-portfolio-info p{margin-right:auto;margin-left:auto;}
+.quze-portfolio-date time,.quze-portfolio-comment span{padding-left:35px;padding-right:35px;}
+.quze-price .tabs-header ul li{padding-right:15px;padding-left:15px;}
+.quze-price .tabs-header ul li:after{right:0;left:0;}
+.quze-price__currency{padding-left:10px;} 
+.quze-price__action{margin-left:0;}
+ 
+.quze-contact-info{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+.quze-contact-text{text-align:right;}
+ 
+.quze-feedback .swiper-container-horizontal > .swiper-pagination-bullets,.quze-feedback .swiper-pagination-custom,.quze-feedback .swiper-pagination-fraction{text-align:right;}
+.quze-feedback .swiper-button-next{margin-right:15px;}
+.quze-feedback .quze-header{text-align:right;padding-right:50px;}
+.quze-feedback-info p{margin-right:auto;margin-left:auto;}
+.quze-feedback-user__img{margin-right:15px;margin-left:15px;}
+.quze-feedback-user__name{text-align:left;}
+.quze-partners-item{border-right:1px solid #d2d2d2;}
+ 
+ 
+.quze-news .quze-header{text-align:right; 
+max-width: 300px;} 
+ 
+ 
+.quze-tweeter-content{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+.quze-tweeter-btn{right:0;left:0;}
+.quze-app-img img{right:105px;}
+ 
+.quze-app-content{padding-right:85px;}
+.quze-app-item{text-align:right; justify-content: flex-end;} 
+.quze-app .quze-header{text-align:right;margin-right:0;}
+.quze-footer{margin-right:auto;margin-left:auto;}
+.quze-footer-item{padding-right:55px;text-align:right;}
+.quze-footer-item .quze-more i{padding-right:15px;}
+.quze-footer-item_info{text-align:right;margin-right:20px;padding-right:55px;}
+ 
+.quze-text-banner p{margin-right:auto;margin-left:auto;}
+.quze-text-banner_style2{margin-right:auto;margin-left:auto;border-right:2px solid rgba(0, 0, 0, 0.1);border-left:2px solid rgba(0, 0, 0, 0.1);}
+.quze-start-block{padding-right:0;padding-left:0;}
+.quze-start-block .quze-header{text-align:right;}
+.quze-start-block .quze-start-block-arrow{left:150px;}
+.quze-start-app-phone1{right:60px;}
+.quze-start-app-phone2{right:-135px;}
+
+.quze-start-app .quze-header{text-align:right;}
+  .quze-start-app .quze-header p{max-width: 100%;} 
+ 
+.quze-coach-item-info{margin-right:auto;margin-left:auto;}
+.quze-comming-soon .quze-header{margin-right:0;margin-left:0;}
+.quze-comming-soon .quze-news-data span,.quze-comming-soon .quze-news-data .quze-news-date,.quze-comming-soon .quze-news-data .quze-news-area{padding-right:3px;padding-left:40px;}
+.quze-comming-soon .quze-news-data span:before,.quze-comming-soon .quze-news-data .quze-news-date:before,.quze-comming-soon .quze-news-data .quze-news-area:before{padding-left:15px;}
+.quze-comming-soon-info .btn-white{margin-left:5px;}
+.quze-comming-soon .quze-news-data{
+    justify-content: flex-end;
+}
+.quze-comming-soon .quze-header{
+    margin-left: auto;margin-right: 0;
+
+}
+.quze-start-block .quze-header p{
+    max-width: 100%;
+}
+.quze-seo .quze-btns-group .btn-white{margin-left:0;}
+.quze-seo-graph{margin-right:auto;margin-left:auto;}
+.quze-ebook-item .quze-header{margin-right:-0px;}
+.quze-type-item__info{padding-left:20px;text-align:right;}
+.quze-shop-item{text-align:right;}
+.quze-shop-item-sale{margin-right:auto;margin-left:auto;right:0;left:0;}
+.quze-shop-item-rating i{margin-left:8px;}
+.quze-shop-item-detal{text-align:left;padding-left:15px;}
+.dark-style .nav-menu-icon{margin-right:15px;}
+.dark-style .quze-slider-item{margin-right:auto;margin-left:auto;}
+.dark-style .quze-slider-item p{margin-right:auto;margin-left:auto;}
+.dark-style .quze-success-item:before{right:0;} 
+.dark-style .quze-feedback .swiper-button-next{margin-right:0;} 
+.dark-style .quze-news .swiper-button-next{margin-right:0;}
+.quze-map-info{text-align:right;right:250px;}
+.quze-map-info form input[type="submit"]{right:115px;} 
+.quze-progect-item{padding-right:120px;}
+ 
+.quze-progect-content{text-align:right;}
+.quze-progect-content p{
+    max-width: 100%;
+}
+.quze-progect-comments, .quze-progect-date{padding-left:65px; padding-right: 0;}
+.quze-progect-comments i, .quze-progect-date i{margin-left:20px;}
+.quze-progect-icon{right:-20px;left:auto;} 
+.quze-progect-item:nth-child(2n) .quze-progect-icon{right:auto;left:-20px;}
+.quze-progect_style2 .quze-progect-item{margin-right:0;margin-left:0;}
+.quze-progect_style2 .quze-progect-item .quze-progect-icon,.quze-progect_style2 .quze-progect-item:nth-child(2n) .quze-progect-icon{left:100px;right:auto; transform:rotate(180deg);}
+.quze-progect_style3 .quze-progect-item{margin-right:0;margin-left:0;}
+.quze-progect_style3 .quze-progect-item .quze-progect-icon,.quze-progect_style3 .quze-progect-item:nth-child(2n) .quze-progect-icon{left:30px;right:auto; transform:rotate(180deg);}
+.quze-project-slider .swiper-button-prev{right:45px;}
+.quze-project-slider .swiper-button-next{left:45px;}
+.quze-project-slider-item_popup:before{left:30px;}
+.quze-project-s-item-content{padding-right:80px;padding-left:80px;}
+.quze-sort-date{text-align:right;}
+.quze-sort-date:before{padding-left:15px;}
+.quze-project-progres{padding-right:80px;padding-left:80px;} 
+.quze-project-progres .quze-progres-name span{padding-right:25px;}
+.quze-pagination-post{padding-right:70px;}
+.quze-post-item{text-align:right;}
+.quze-post-item:last-child .quze-post-text:after{right:80px;}
+ .quze-post-data span:last-child{
+    margin-right: 0;
+ }
+ .quze-post-data{
+    text-align: right;
+    padding-right: 80px;padding-left: 0;
+ }
+ 
+.quze-post-data span:before{margin-left:15px;}
+.quze-post-text{padding-right:80px;padding-left:80px;}
+.quze-post-text2{padding-right:80px;padding-left:80px;}
+.quze-post-user{text-align:right;}
+.quze-post-user-info{padding-right:50px;}
+.quze-post-social-item,.quze-post-social a{padding-left:33px;}
+.quze-post-comments-item{text-align:right;}
+.quze-post-comments-item_style2{padding-right:50px;}
+.quze-post-comments-info{padding-right:70px;}
+.quze-post-comments-info .title6 a:before{margin-right:20px;margin-left:10px;}
+.quze-post-comments-info p:before{right:-25px;}
+.quze-widget{padding-right:40px;text-align:right;}
+.quze-widget-border-bottom:after{right:0;}
+.quze-widget-search{text-align:right;}
+.quze-widget-search form label:before{right:-45px;}
+.quze-widget-category a:before{right:-30px;}
+.quze-widget-category a:after{padding-right:10px;}
+.quze-widget-post{text-align:right;}
+.quze-widget-post-img:after{right:0;}  
+ .quze-widget-archive a{
+    justify-content: flex-end;
+ }
+.quze-widget-tag{margin-left:20px;}
+.marg-lr0{margin-right:0px;margin-left:0px;}
+.no-padd{padding-right:0px;padding-left:0px;}
+.padding-lr15{padding-right:15px;padding-left:15px;}
+.padding-lr30{padding-right:30px;padding-left:30px;}
+@media screen and (max-width:768px) { 
+    .quze-about-item .title3 a,.quze-about-item .title3{margin-right:auto;margin-left:auto;}
+    .quze-about .quze-header .title2{margin-right:auto;margin-left:auto;}
+    .quze-category-item{margin-right:auto;margin-left:auto;}
+    .quze-category-item:hover .quze-category-item__text{text-align:right;}
+    .quze-service-tab .tabs-header{margin-right:auto;margin-left:auto;}
+    .quze-service-tab-info{padding-right:20px;}
+    .quze-service .quze-header p{margin-right:auto;margin-left:auto;}
+    .quze-skills-graph{margin-right:auto;margin-left:auto;}
+    .quze-skills-item{padding-right:15px;padding-left:15px;}
+    .quze-success .quze-header p{margin-right:auto;margin-left:auto;}
+    .quze-success-item{margin-right:0;margin-left:0;}
+    .quze-portfolio .quze-header p{margin-right:auto;margin-left:auto;}
+    .quze-portfolio-item{padding-right:0;padding-left:0;}
+    .quze-portfolio-text:after{left:0;right:0;}
+    .quze-portfolio-text:before{right:0;left:0;}
+    .quze-portfolio-date time,.quze-portfolio-comment span{padding-right:5px;padding-left:5px;}
+    .quze-feedback-info .quze-feedback-btn{right:0;left:0;}
+    .quze-news-slider{padding-right:0;padding-left:0;}
+    .quze-news .swiper-container{padding-right:0;padding-left:0;}
+    .quze-news-data{padding-right:10px;}
+    .quze-news-data span{padding-left:30px;}
+    .social ul li{border-right:none;}
+    .quze-start-block{padding-right:0;padding-left:0;}
+    .quze-start-block .no-padd{padding-right:15px;padding-left:15px;}
+    .quze-start-block .quze-start-block-arrow{left:30px;}
+    .quze-comming-soon .quze-news-data{padding-right:0;} 
+}
+@media screen and (max-width:1199px) {
+    .main-menu{padding-left:0;}
+    .quze-slider{padding-right:20px;padding-left:20px;}
+    .quze-about-item{margin-right:auto;margin-left:auto;}
+    .quze-service-tab .tabs-item-info{padding-right:60px;padding-left:60px;}
+    .quze-analysis-slider{padding-right:50px;padding-left:15px;}
+    .quze-skills-info{padding-right:50px;padding-left:15px;}
+    .quze-features-item:nth-child(2n){padding-right:30px;}
+    .quze-portfolio-date time,.quze-portfolio-comment span{padding-right:30px;padding-left:30px;}
+    .quze-news .quze-header{padding-right:0;margin-right:auto;margin-left:auto;}
+    .quze-start-block{padding-right:20px;padding-left:20px;}
+    .quze-start-block .quze-start-block-arrow{left:50px;}
+    .quze-shop-item{padding-right:20px;padding-left:20px;}
+    .quze-shop-item-detal{padding-left:0;}
+    .quze-progect-comments, .quze-progect-date{padding-left:15px;}
+    .quze-progect_style2 .quze-progect-item .quze-progect-icon,.quze-progect_style2 .quze-progect-item:nth-child(2n) .quze-progect-icon{left:50px;}
+    .quze-project-s-item-content{padding-right:30px;padding-left:30px;}
+    .quze-project-progres{padding-right:30px;padding-left:30px;}
+    .quze-pagination-post{padding-right:0;padding-left:0;}
+    .quze-post-text{padding-right:30px;padding-left:30px;}
+    .quze-post-text2{padding-right:30px;padding-left:30px;}
+    .quze-post-user-info{padding-right:40px;}
+    .quze-post-comments{padding-right:30px;padding-left:30px;}
+}
+@media screen and (max-width:639px) {
+    .quze-subscribe{padding-right:15px;padding-left:15px;}
+    .quze-subscribe input:not([type='submit']),.quze-subscribe input[type='text']{padding-right:0;padding-left:0;}
+    .main-navigation{right:15px;left:15px;}
+    .quze-share-block{left:15px;right:15px;}
+    .quze-search-form{left:15px;right:15px;}
+    .quze-search-form form button{padding-right:20px;padding-left:20px;}
+    .nav-menu-icon{left:15px;}
+    .main-navigation .quze-logo{right:15px;}
+    
+    .quze-slider{padding-right:0;padding-left:0;}
+    .quze-slider-item-wrap{padding-right:15px;padding-left:15px;}
+    .quze-header{padding-right:15px;padding-left:15px;}
+    .quze-category-item:hover .quze-category-item__text{padding-right:15px;padding-left:15px;}
+    .quze-category-item__text{padding-right:15px;padding-left:15px;}
+    .quze-service-tab-info p{margin-right:auto;margin-left:auto;}
+    .quze-success .no-padd{padding-right:15px;padding-left:15px;}
+    .quze-portfolio-date, .quze-portfolio-comment{text-align:right;}
+    .quze-portfolio-date i, .quze-portfolio-comment i{margin-left:20px;}
+    .quze-feedback-item{padding-right:0;padding-left:0;}
+    .quze-feedback-info{padding-right:15px;padding-left:15px;}
+    .quze-footer-logo{margin-right:0;margin-left:0;}
+    .quze-footer-item_info{margin-left:15px;padding-right:15px;padding-left:15px;}
+    .quze-start-app-phone1{left:auto;}
+    .quze-project-s-item-content{padding-right:0;padding-left:0;}
+    .quze-project-progres{padding-right:0;padding-left:0;}
+    .quze-post-data{padding-right:0;padding-left:0;}
+    .quze-post-text{padding-right:0;padding-left:0;}
+    .quze-post-text2{padding-right:0;padding-left:0;}
+    .quze-post-user-info{padding-right:0;}
+    .quze-post-comments{padding-right:0;padding-left:0;}
+    .quze-post-comments-info{padding-right:15px;}
+    .quze-widget-post-info{padding-right:0;}
+}
+@media screen and (max-width:991px) {
+    .quze-blockquote blockquote{margin-right:auto;margin-left:auto;}
+    .quze-slider-item-wrap{padding-right:60px;padding-left:60px;}
+    .quze-category-item__text svg{margin-right:auto;margin-left:auto;}
+    .quze-service-tab .tabs-item-list li:nth-child(even){margin-right:0;}
+    .quze-skills-info{padding-right:15px;}
+    .quze-feedback .quze-header{padding-right:0;}
+    .quze-feedback .quze-header p{margin-right:auto;margin-left:auto;}
+    .quze-feedback-item{padding-right:25px;padding-left:25px;}
+    .quze-app-content{padding-right:15px;padding-left:15px;}
+    .quze-app-item{padding-right:50px;}
+    .quze-start-app-download{margin-right:auto;margin-left:auto;}
+    .quze-start-app_style2 .no-padd{padding-right:15px;padding-left:15px;}
+}
+@media screen and (max-width:1500px) {
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev{left:50px;}
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next{right:50px;}
+    .main-navigation{padding-right:25px;padding-left:25px;}
+    .main-menu li.current_page_item{margin-left:0;}
+    .quze-logo__text{padding-right:20px;}
+    .quze-slider-item-wrap{padding-right:100px;padding-left:100px;}
+    .quze-analysis-slider{padding-right:100px;padding-left:15px;}
+    .quze-skills-info{padding-right:100px;}
+    .quze-features-item-info{padding-right:45px;padding-left:15px;}
+    .quze-features .quze-header{padding-right:50px;padding-left:15px;}
+    .quze-portfolio .swiper-button-prev,.quze-portfolio .swiper-container-rtl .swiper-button-prev{right:15px;}
+    .quze-portfolio .swiper-container-rtl .swiper-button-next,.quze-portfolio .swiper-button-next{left:15px;}
+    .quze-portfolio .tabs-header.tabs-header-projects{padding-right:15px;padding-left:15px;}
+    .quze-portfolio-item{padding-right:50px;padding-left:50px;}
+    .quze-news-item{margin-left:0;}
+    .quze-app-img img{right:0;}
+    .quze-app-content{padding-right:0;}
+    .quze-footer-item{padding-right:30px;}
+    .quze-footer-item_info{margin-right:0;}
+    .quze-start-app-phone1{right:auto;left:50px;}
+    .quze-start-app-phone2{right:auto;left:350px;}
+    .quze-map-info{right:0;margin-right:30px;margin-left:30px;}
+    .quze-progect-icon{right:auto;left:50px;}
+    .quze-progect-item:nth-child(2n) .quze-progect-icon{right:auto;left:50px;}
+    .quze-post-data span{margin-left:15px;}
+}
+@media screen and (max-width:640px) {
+    .quze-form form input[type="submit"]{right:5px;}
+    .quze-footer-item{text-align:right;}
+    .quze-map-info{margin-right:15px;margin-left:15px;}
+    .quze-map-info form input[type="submit"]{right:5px;}
+}
+@media screen and (max-width:992px) {
+    .main-navigation{padding-right:0;padding-left:0;right:20px;left:20px;}
+    .main-menu li > a:before{right:-10px;left:-10px;}
+    .main-menu li.current_page_item > a:before{right:-10px;left:-10px;}
+    .main-navigation .quze-logo{right:30px;}
+    .main-navigation nav{text-align:left;padding-right:15px;padding-left:15px;}
+    
+    .nav-menu-icon{margin-left:30px;margin-right:20px;}
+    .main-menu .sub-menu li > a{padding-right:85px;}
+    .main-navigation.active .main-menu_style1{padding-right:20px;padding-left:20px;right:0;left:0;}
+    .quze-share-block{left:0;right:auto;}
+    .quze-search-form{left:0;right:auto;}
+    .quze-analysis-slider{padding-right:30px;padding-left:30px;margin-right:auto;margin-left:auto;}
+    .quze-features .quze-header{margin-right:auto;margin-left:auto;}
+    .quze-news-slider{padding-right:40px;padding-left:40px;margin-right:auto;margin-left:auto;}
+    .quze-news-slide{padding-right:0;padding-left:0;}
+    .quze-news-img{margin-right:auto;margin-left:auto;}
+    .quze-news-item{margin-left:0;}
+ 
+}
+@media screen and (max-width:1300px) {
+    .main-menu li > a{padding-right:15px;padding-left:15px;}
+    .quze-category-item__text{padding-right:30px;padding-left:30px;}
+    .quze-skills-graph{margin-right:20px;}
+    .quze-skills-item{padding-right:45px;padding-left:45px;}
+    .quze-skills-item:after{right:-20px;}
+    .quze-features-item-info{padding:30px 30px 30px 0;}
+    .quze-portfolio-date time,.quze-portfolio-comment span{padding-right:10px;padding-left:10px;}
+    .quze-start-app-info{padding-right:30px;}
+}
+@media screen and (min-width:992px) {
+    .main-menu > li > .sub-menu:after{right:0;}
+    .main-menu > li > .sub-menu:before{border-width:0 7px 7px 7px;right:0;left:0;}
+    .main-menu .sub-menu .sub-menu{right:100%;margin-right:20px;}
+    .main-menu .sub-menu .sub-menu:after{right:-20px;}  
+    .main-menu .sub-menu .sub-menu.sub-menu-left:after{right:auto;left:-20px;}
+    .main-menu .sub-menu li.menu-item-has-children > a span{left:0;}
+}
+@media screen and (max-width:1800px) {
+    .quze-category-item:hover .quze-category-item__text .title3 a, .quze-category-item:hover .quze-category-item__text .title3{padding-right:0;}
+    .quze-category-item__text{padding-right:50px;padding-left:50px;}
+    .quze-price__cent{margin-left:0;}
+    .quze-news-data span{padding-left:15px;}
+}
+@media screen and (max-width:767px) {
+    .quze-success-item{margin-right:auto;margin-left:auto;}
+    .quze-footer-logo{margin-right:8px;margin-left:45px;}
+    .quze-footer-item{padding-right:30px;padding-left:30px;}
+    .quze-footer-item li{text-align:right;}
+    .quze-start-app-info{padding-right:0;}
+    .quze-start-app-info .quze-header{padding-right:0;}
+    .quze-project-progres-item{margin-left:0;}
+    .quze-widget{padding-right:0;}
+}
+@media only screen and (min-width:1300px) {
+    .quze-footer .container{margin-right:auto;margin-left:auto;}
+}
+@media only screen and (max-width:1200px) {
+    .quze-footer .container{margin-right:auto;margin-left:auto;}
+}
+@media screen and (max-width:480px) {
+    .quze-type-item{padding-right:15px;padding-left:15px;}
+}
+
+
+/* // my */ 
+
+
+.quze-slider-item p{
+    max-width: 100%;
+}
+
+.quze-btns-group{
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px){
+
+    .main-menu .sub-menu li.menu-item-has-children > a span {
+        right: auto;
+        left: 0;
+        transform: rotate(180deg);
+    }
+}
+
+   .quze-service-tab-info .title4{
+        max-width: 300px;
+   }
