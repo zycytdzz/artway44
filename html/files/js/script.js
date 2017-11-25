@@ -23,6 +23,21 @@ function animateOnScroll() {
 			thisItem.delay(delay).queue(function(){thisItem.addClass('animated');});
 		});
 	}
+
+
+	/* animations  */
+	if (jQuery("[class*='js-animate-text']").length > 0) {
+		jQuery("[class*='js-animate-text']").not('.animated')
+		.filter(function(i, d) {
+			return  jQuery(d).visible(true);
+		}).each(function(i) {
+			var thisItem = jQuery(this);
+			var delayMulti = 200;
+			setTimeout(function() { thisItem.textillate({ in: { effect: 'fadeIn', delay: 15 } }) }, delayMulti);
+			var delay = i*delayMulti + 100;  // + 150 is to add a small delay
+			thisItem.delay(delay).queue(function(){thisItem.addClass('animated');});
+		});
+	}
 	
 	/* check text light section for logo/header part  */
 	var area = (jQuery("header #logo").height() + parseInt(jQuery("header #logo").css("top"),10))/2;
@@ -45,7 +60,8 @@ function animateOnScroll() {
 			jQuery(this).trigger( "click" );
 		});
 	}
-					
+
+
 }
 
 
@@ -192,6 +208,9 @@ jQuery(window).on("load",function() {
 	/*---------------------------------------------- 
 				S M O O T H   S H O W    (pageloader)
 	------------------------------------------------*/
+
+	jQuery('.caption-name, .caption-sub').css('visibility', 'hidden');
+
 	jQuery("body").addClass("loaded");
 	setTimeout(function(){
 		setTimeout(function(){ animateOnScroll(true); },500);
@@ -206,8 +225,8 @@ jQuery(window).on("load",function() {
 			if ( jQuery('.grid-filter li a[data-slug='+filter+']').length > 0) {
 				/*setTimeout(function(){ */jQuery('.grid-filter li a[data-slug='+filter+']').trigger( "click" );/* }, 500);*/
 			}
-		} 
-		
+		}
+
 	}, 1500);
 	
 	

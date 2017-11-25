@@ -7,12 +7,22 @@
     font-weight: normal;
     font-style: normal;
 }
-.thumb-hover .overlay-caption .caption-name {
-    font-family: "BlowBrush", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+
+
+@font-face {
+    font-family: 'Peace Sans';
+    src: url('../fonts/PeaceSans.eot');
+    src: url('../fonts/PeaceSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PeaceSans.woff') format('woff'),
+        url('../fonts/PeaceSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-.thumb-hover .overlay-caption .caption-sub {
-    font-family: "Courier New", monospace;
-    color: #fff;
+
+
+
+.caption-name, .caption-sub {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #fff !important;
 }
