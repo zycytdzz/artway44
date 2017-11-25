@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BlowBrush';
+    src: url('../fonts/BlowBrush.eot');
+    src: url('../fonts/BlowBrush.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BlowBrush.woff') format('woff'),
+        url('../fonts/BlowBrush.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.thumb-hover .overlay-caption .caption-name {
+    font-family: "BlowBrush", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.thumb-hover .overlay-caption .caption-sub {
+    font-family: "Courier New", monospace;
+    color: #fff;
+}
