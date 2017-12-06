@@ -1,0 +1,22 @@
+.section-coaches-single {
+  padding: 50px 0;
+}
+
+.section-coaches-single .slider-coaches .item {
+  color: #000;
+  padding: 10px 0;
+}
+
+.section-coaches-single .slider-coaches .item .slider-item-content {
+  padding: 0 15px;
+}
+
+.section-coaches-single .slider-coaches .list-social a {
+  color: #000;
+}
+
+.section-coaches-single .slider-coaches {
+  padding: 0;
+}
+
+/*# sourceMappingURL=coaches01.css.map */

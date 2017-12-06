@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/all.css">
+		<title>Pulse</title>
+	</head>
+	<body class="theme01 -full-height ">
+		<header class="header">
+			<nav class="navbar navbar-toggleable-md">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="">
+				</a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto" id="navbar-scrollspy">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="classes-01.html">Classes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="coaches-01.html">Coaches</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery-01.html">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="testimonials-01.html">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog-01.html">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="shop-01.html">Shop</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="404.html">404</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav navbar-right search-link navbar-search">
+						<li class="nav-item">
+							<a class="fa fa-search -js_search_open" href="javascript:void(0);"></a>
+						</li>
+						<li>
+							<form class="header-search">
+								<input class="form-control" type="search" placeholder="Search here">
+								<input class="btn-search" type="submit" value="Search">
+							</form>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="section-top-single bg-img04">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-10 offset-lg-1 col-md-12">
+							<h2 class="lined">OUR shop</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-shop" id="to-shop">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12">
+							<div class="row">
+								<div class="col-lg-3 col-md-12">
+									<div class="aside-filter">
+										<div class="aside-filter-item">
+											<form class="form-search" action="#?">
+												<div class="input-group">
+													<input class="form-control" type="text" placeholder="Search for...">
+													<span class="input-group-btn">
+														<button class="btn" type="button">
+															<i class="fa fa-search"></i>
+														</button>
+													</span>
+												</div>
+											</form>
+										</div>
+										<div class="aside-filter-item">
+											<h5>FILTER BY PRICE</h5>
+											<div class="filter-range-wrapper">
+												<div id="filter-range"></div>
+											</div>
+											<div class="filter-content d-flex align-items-center justify-content-between">
+												<div class="filter-info">price:
+													<span id="filter-range-value-min"></span>—
+													<span id="filter-range-value-max"></span>
+												</div>
+												<a class="btn btn-beige" href="#?">Filter</a>
+											</div>
+										</div>
+										<div class="aside-filter-item filter-categories -mob_50">
+											<h5>PRODUCT CATEGORIES</h5>
+											<div id="accordion">
+												<div class="card -accordion">
+													<div class="card-header" id="headingOne">
+														<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+															<span>Accessories (1)</span>
+															<i class="fa fa-angle-right"></i>
+														</a>
+													</div>
+													<div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
+														<div class="card-block">
+															<ul>
+																<li>- Accessories</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="card -accordion">
+													<div class="card-header" id="headingTwo">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+															<span>Clothing (3)</span>
+															<i class="fa fa-angle-right"></i>
+														</a>
+													</div>
+													<div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
+														<div class="card-block">
+															<ul>
+																<li>- Sportwear</li>
+																<li>- Sportwear</li>
+																<li>- Sportwear</li>
+																<li>- Sportwear</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="card -accordion">
+													<div class="card-header" id="headingThree">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+															<span>Sport Equipment (2)</span>
+															<i class="fa fa-angle-right"></i>
+														</a>
+													</div>
+													<div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingThree">
+														<div class="card-block">
+															<ul>
+																<li>- Sportwear</li>
+																<li>- Sportwear</li>
+																<li>- Sportwear</li>
+																<li>- Sportwear</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="aside-filter-item -mob_50">
+											<h5>Top Rated Products</h5>
+											<ul class="list-rated">
+												<li class="d-flex justify-content-between align-items-center">
+													<div class="_content">
+														<a class="naming" href="product-01.html">0.5 KG DUMBBELL</a>
+														<fieldset class="rating stars">
+															<input id="star5-123" type="radio" name="stars-filter-1" value="5">
+															<label class="full" for="star5-123" title="Awesome - 5 stars"></label>
+															<input id="star4half-123" type="radio" name="stars-filter-1" value="4 and a half">
+															<label class="half" for="star4half-123" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-123" type="radio" name="stars-filter-1" value="4">
+															<label class="full" for="star4-123" title="Pretty good - 4 stars"></label>
+															<input id="star3half-123" type="radio" name="stars-filter-1" value="3 and a half">
+															<label class="half" for="star3half-123" title="Meh - 3.5 stars"></label>
+															<input id="star3-123" type="radio" name="stars-filter-1" value="3">
+															<label class="full" for="star3-123" title="Meh - 3 stars"></label>
+															<input id="star2half-123" type="radio" name="stars-filter-1" value="2 and a half">
+															<label class="half" for="star2half-123" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-123" type="radio" name="stars-filter-1" value="2">
+															<label class="full" for="star2-123" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-123" type="radio" name="stars-filter-1" value="1 and a half">
+															<label class="half" for="star1half-123" title="Meh - 1.5 stars"></label>
+															<input id="star1-123" type="radio" name="stars-filter-1" value="1">
+															<label class="full" for="star1-123" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-123" type="radio" name="stars-filter-1" value="half">
+															<label class="half" for="starhalf-123" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+													</div>
+													<a class="img-wrap" href="product-01.html">
+														<img src="images/shop-img-01.png" alt="">
+													</a>
+												</li>
+												<li class="d-flex justify-content-between align-items-center">
+													<div class="_content">
+														<a class="naming" href="product-01.html">0.5 KG DUMBBELL</a>
+														<fieldset class="rating stars">
+															<input id="star5-124" type="radio" name="stars-filter-2" value="5">
+															<label class="full" for="star5-124" title="Awesome - 5 stars"></label>
+															<input id="star4half-124" type="radio" name="stars-filter-2" value="4 and a half">
+															<label class="half" for="star4half-124" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-124" type="radio" name="stars-filter-2" value="4">
+															<label class="full" for="star4-124" title="Pretty good - 4 stars"></label>
+															<input id="star3half-124" type="radio" name="stars-filter-2" value="3 and a half">
+															<label class="half" for="star3half-124" title="Meh - 3.5 stars"></label>
+															<input id="star3-124" type="radio" name="stars-filter-2" value="3">
+															<label class="full" for="star3-124" title="Meh - 3 stars"></label>
+															<input id="star2half-124" type="radio" name="stars-filter-2" value="2 and a half">
+															<label class="half" for="star2half-124" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-124" type="radio" name="stars-filter-2" value="2">
+															<label class="full" for="star2-124" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-124" type="radio" name="stars-filter-2" value="1 and a half">
+															<label class="half" for="star1half-124" title="Meh - 1.5 stars"></label>
+															<input id="star1-124" type="radio" name="stars-filter-2" value="1">
+															<label class="full" for="star1-124" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-124" type="radio" name="stars-filter-2" value="half">
+															<label class="half" for="starhalf-124" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+													</div>
+													<a class="img-wrap" href="product-01.html">
+														<img src="images/shop-img-02.png" alt="">
+													</a>
+												</li>
+												<li class="d-flex justify-content-between align-items-center">
+													<div class="_content">
+														<a class="naming" href="product-01.html">0.5 KG DUMBBELL</a>
+														<fieldset class="rating stars">
+															<input id="star5-125" type="radio" name="stars-filter-3" value="5">
+															<label class="full" for="star5-125" title="Awesome - 5 stars"></label>
+															<input id="star4half-125" type="radio" name="stars-filter-3" value="4 and a half">
+															<label class="half" for="star4half-125" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-125" type="radio" name="stars-filter-3" value="4">
+															<label class="full" for="star4-125" title="Pretty good - 4 stars"></label>
+															<input id="star3half-125" type="radio" name="stars-filter-3" value="3 and a half">
+															<label class="half" for="star3half-125" title="Meh - 3.5 stars"></label>
+															<input id="star3-125" type="radio" name="stars-filter-3" value="3">
+															<label class="full" for="star3-125" title="Meh - 3 stars"></label>
+															<input id="star2half-125" type="radio" name="stars-filter-3" value="2 and a half">
+															<label class="half" for="star2half-125" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-125" type="radio" name="stars-filter-3" value="2">
+															<label class="full" for="star2-125" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-125" type="radio" name="stars-filter-3" value="1 and a half">
+															<label class="half" for="star1half-125" title="Meh - 1.5 stars"></label>
+															<input id="star1-125" type="radio" name="stars-filter-3" value="1">
+															<label class="full" for="star1-125" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-125" type="radio" name="stars-filter-3" value="half">
+															<label class="half" for="starhalf-125" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+													</div>
+													<a class="img-wrap" href="product-01.html">
+														<img src="images/shop-img-03.png" alt="">
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-12">
+									<div class="row">
+										<div class="col-md-12 shop-panel">
+											<div class="d-flex justify-content-between align-items-center">
+												<h5 class="shop-result">Showing
+													<span class="from">1 </span>-
+													<span class="to">12 </span>of
+													<span class="total">15 </span>results</h5>
+												<div class="select-wrapper -transparent">
+													<select class="form-control">
+														<option data-icon="fa fa-sort-amount-desc" selected>Price</option>
+														<option data-icon="fa fa-sort-amount-asc">Price</option>
+														<option data-icon="fa fa-sort-alpha-asc">Alphabetically</option>
+														<option data-icon="fa fa-sort-alpha-desc">Alphabetically</option>
+														<option>Rating</option>
+														<option>Relevance</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="shop-list_items">
+										<div class="row">
+											<div class="col-xl-4 col-md-6 col-sm-12">
+												<div class="card -product">
+													<div class="_header">
+														<a class="img-wrap" href="product-01.html">
+															<img src="images/product-img-01.jpg" alt="">
+														</a>
+													</div>
+													<div class="_body">
+														<a class="title" href="product-01.html">0.5 KG DUMBBELL</a>
+														<span class="info">Sports Equipment</span>
+														<fieldset class="rating stars">
+															<input id="star5-1" type="radio" name="stars-1" value="5">
+															<label class="full" for="star5-1" title="Awesome - 5 stars"></label>
+															<input id="star4half-1" type="radio" name="stars-1" value="4 and a half">
+															<label class="half" for="star4half-1" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-1" type="radio" name="stars-1" value="4">
+															<label class="full" for="star4-1" title="Pretty good - 4 stars"></label>
+															<input id="star3half-1" type="radio" name="stars-1" value="3 and a half">
+															<label class="half" for="star3half-1" title="Meh - 3.5 stars"></label>
+															<input id="star3-1" type="radio" name="stars-1" value="3">
+															<label class="full" for="star3-1" title="Meh - 3 stars"></label>
+															<input id="star2half-1" type="radio" name="stars-1" value="2 and a half">
+															<label class="half" for="star2half-1" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-1" type="radio" name="stars-1" value="2">
+															<label class="full" for="star2-1" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-1" type="radio" name="stars-1" value="1 and a half">
+															<label class="half" for="star1half-1" title="Meh - 1.5 stars"></label>
+															<input id="star1-1" type="radio" name="stars-1" value="1">
+															<label class="full" for="star1-1" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-1" type="radio" name="stars-1" value="half">
+															<label class="half" for="starhalf-1" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+														<span class="price">32.00
+															<i>$</i>
+														</span>
+													</div>
+													<div class="_footer">
+														<div class="link-wrap">
+															<a class="fa fa-shopping-cart" href="product-01.html"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-md-6 col-sm-12">
+												<div class="card -product">
+													<div class="_header">
+														<a class="img-wrap" href="product-01.html">
+															<img src="images/product-img-02.jpg" alt="">
+														</a>
+													</div>
+													<div class="_body">
+														<a class="title" href="product-01.html">0.5 KG DUMBBELL</a>
+														<span class="info">Sports Equipment</span>
+														<fieldset class="rating stars">
+															<input id="star5-2" type="radio" name="stars-2" value="5">
+															<label class="full" for="star5-2" title="Awesome - 5 stars"></label>
+															<input id="star4half-2" type="radio" name="stars-2" value="4 and a half">
+															<label class="half" for="star4half-2" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-2" type="radio" name="stars-2" value="4">
+															<label class="full" for="star4-2" title="Pretty good - 4 stars"></label>
+															<input id="star3half-2" type="radio" name="stars-2" value="3 and a half">
+															<label class="half" for="star3half-2" title="Meh - 3.5 stars"></label>
+															<input id="star3-2" type="radio" name="stars-2" value="3">
+															<label class="full" for="star3-2" title="Meh - 3 stars"></label>
+															<input id="star2half-2" type="radio" name="stars-2" value="2 and a half">
+															<label class="half" for="star2half-2" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-2" type="radio" name="stars-2" value="2">
+															<label class="full" for="star2-2" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-2" type="radio" name="stars-2" value="1 and a half">
+															<label class="half" for="star1half-2" title="Meh - 1.5 stars"></label>
+															<input id="star1-2" type="radio" name="stars-2" value="1">
+															<label class="full" for="star1-2" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-2" type="radio" name="stars-2" value="half">
+															<label class="half" for="starhalf-2" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+														<span class="price">32.00
+															<i>$</i>
+														</span>
+													</div>
+													<div class="_footer">
+														<div class="link-wrap">
+															<a class="fa fa-shopping-cart" href="#?"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-md-6 col-sm-12">
+												<div class="card -product">
+													<div class="_header">
+														<a class="img-wrap" href="product-01.html">
+															<img src="images/product-img-03.jpg" alt="">
+														</a>
+													</div>
+													<div class="_body">
+														<a class="title" href="product-01.html">0.5 KG DUMBBELL</a>
+														<span class="info">Sports Equipment</span>
+														<fieldset class="rating stars">
+															<input id="star5-3" type="radio" name="stars-3" value="5">
+															<label class="full" for="star5-3" title="Awesome - 5 stars"></label>
+															<input id="star4half-3" type="radio" name="stars-3" value="4 and a half">
+															<label class="half" for="star4half-3" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-3" type="radio" name="stars-3" value="4">
+															<label class="full" for="star4-3" title="Pretty good - 4 stars"></label>
+															<input id="star3half-3" type="radio" name="stars-3" value="3 and a half">
+															<label class="half" for="star3half-3" title="Meh - 3.5 stars"></label>
+															<input id="star3-3" type="radio" name="stars-3" value="3">
+															<label class="full" for="star3-3" title="Meh - 3 stars"></label>
+															<input id="star2half-3" type="radio" name="stars-3" value="2 and a half">
+															<label class="half" for="star2half-3" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-3" type="radio" name="stars-3" value="2">
+															<label class="full" for="star2-3" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-3" type="radio" name="stars-3" value="1 and a half">
+															<label class="half" for="star1half-3" title="Meh - 1.5 stars"></label>
+															<input id="star1-3" type="radio" name="stars-3" value="1">
+															<label class="full" for="star1-3" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-3" type="radio" name="stars-3" value="half">
+															<label class="half" for="starhalf-3" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+														<span class="price">32.00
+															<i>$</i>
+														</span>
+													</div>
+													<div class="_footer">
+														<div class="link-wrap">
+															<a class="fa fa-shopping-cart" href="product-01.html"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-md-6 col-sm-12">
+												<div class="card -product">
+													<div class="_header">
+														<a class="img-wrap" href="product-01.html">
+															<img src="images/product-img-04.jpg" alt="">
+														</a>
+													</div>
+													<div class="_body">
+														<a class="title" href="product-01.html">0.5 KG DUMBBELL</a>
+														<span class="info">Sports Equipment</span>
+														<fieldset class="rating stars">
+															<input id="star5-4" type="radio" name="stars-4" value="5">
+															<label class="full" for="star5-4" title="Awesome - 5 stars"></label>
+															<input id="star4half-4" type="radio" name="stars-4" value="4 and a half">
+															<label class="half" for="star4half-4" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-4" type="radio" name="stars-4" value="4">
+															<label class="full" for="star4-4" title="Pretty good - 4 stars"></label>
+															<input id="star3half-4" type="radio" name="stars-4" value="3 and a half">
+															<label class="half" for="star3half-4" title="Meh - 3.5 stars"></label>
+															<input id="star3-4" type="radio" name="stars-4" value="3">
+															<label class="full" for="star3-4" title="Meh - 3 stars"></label>
+															<input id="star2half-4" type="radio" name="stars-4" value="2 and a half">
+															<label class="half" for="star2half-4" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-4" type="radio" name="stars-4" value="2">
+															<label class="full" for="star2-4" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-4" type="radio" name="stars-4" value="1 and a half">
+															<label class="half" for="star1half-4" title="Meh - 1.5 stars"></label>
+															<input id="star1-4" type="radio" name="stars-4" value="1">
+															<label class="full" for="star1-4" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-4" type="radio" name="stars-4" value="half">
+															<label class="half" for="starhalf-4" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+														<span class="price">32.00
+															<i>$</i>
+														</span>
+													</div>
+													<div class="_footer">
+														<div class="link-wrap">
+															<a class="fa fa-shopping-cart" href="product-01.html"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-md-6 col-sm-12">
+												<div class="card -product">
+													<div class="_header">
+														<a class="img-wrap" href="product-01.html">
+															<img src="images/product-img-02.jpg" alt="">
+														</a>
+													</div>
+													<div class="_body">
+														<a class="title" href="product-01.html">0.5 KG DUMBBELL</a>
+														<span class="info">Sports Equipment</span>
+														<fieldset class="rating stars">
+															<input id="star5-5" type="radio" name="stars-5" value="5">
+															<label class="full" for="star5-5" title="Awesome - 5 stars"></label>
+															<input id="star4half-5" type="radio" name="stars-5" value="4 and a half">
+															<label class="half" for="star4half-5" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-5" type="radio" name="stars-5" value="4">
+															<label class="full" for="star4-5" title="Pretty good - 4 stars"></label>
+															<input id="star3half-5" type="radio" name="stars-5" value="3 and a half">
+															<label class="half" for="star3half-5" title="Meh - 3.5 stars"></label>
+															<input id="star3-5" type="radio" name="stars-5" value="3">
+															<label class="full" for="star3-5" title="Meh - 3 stars"></label>
+															<input id="star2half-5" type="radio" name="stars-5" value="2 and a half">
+															<label class="half" for="star2half-5" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-5" type="radio" name="stars-5" value="2">
+															<label class="full" for="star2-5" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-5" type="radio" name="stars-5" value="1 and a half">
+															<label class="half" for="star1half-5" title="Meh - 1.5 stars"></label>
+															<input id="star1-5" type="radio" name="stars-5" value="1">
+															<label class="full" for="star1-5" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-5" type="radio" name="stars-5" value="half">
+															<label class="half" for="starhalf-5" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+														<span class="price">32.00
+															<i>$</i>
+														</span>
+													</div>
+													<div class="_footer">
+														<div class="link-wrap">
+															<a class="fa fa-shopping-cart" href="product-01.html"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xl-4 col-md-6 col-sm-12">
+												<div class="card -product">
+													<div class="_header">
+														<a class="img-wrap" href="product-01.html">
+															<img src="images/product-img-02.jpg" alt="">
+														</a>
+													</div>
+													<div class="_body">
+														<a class="title" href="product-01.html">0.5 KG DUMBBELL</a>
+														<span class="info">Sports Equipment</span>
+														<fieldset class="rating stars">
+															<input id="star5-6" type="radio" name="stars-6" value="5">
+															<label class="full" for="star5-6" title="Awesome - 5 stars"></label>
+															<input id="star4half-6" type="radio" name="stars-6" value="4 and a half">
+															<label class="half" for="star4half-6" title="Pretty good - 4.5 stars"></label>
+															<input id="star4-6" type="radio" name="stars-6" value="4">
+															<label class="full" for="star4-6" title="Pretty good - 4 stars"></label>
+															<input id="star3half-6" type="radio" name="stars-6" value="3 and a half">
+															<label class="half" for="star3half-6" title="Meh - 3.5 stars"></label>
+															<input id="star3-6" type="radio" name="stars-6" value="3">
+															<label class="full" for="star3-6" title="Meh - 3 stars"></label>
+															<input id="star2half-6" type="radio" name="stars-6" value="2 and a half">
+															<label class="half" for="star2half-6" title="Kinda bad - 2.5 stars"></label>
+															<input id="star2-6" type="radio" name="stars-6" value="2">
+															<label class="full" for="star2-6" title="Kinda bad - 2 stars"></label>
+															<input id="star1half-6" type="radio" name="stars-6" value="1 and a half">
+															<label class="half" for="star1half-6" title="Meh - 1.5 stars"></label>
+															<input id="star1-6" type="radio" name="stars-6" value="1">
+															<label class="full" for="star1-6" title="Sucks big time - 1 star"></label>
+															<input id="starhalf-6" type="radio" name="stars-6" value="half">
+															<label class="half" for="starhalf-6" title="Sucks big time - 0.5 stars"></label>
+														</fieldset>
+														<span class="price">32.00
+															<i>$</i>
+														</span>
+													</div>
+													<div class="_footer">
+														<div class="link-wrap">
+															<a class="fa fa-shopping-cart" href="product-01.html"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer dark">
+			<div class="container-fluid text-center">
+				<p class="copyright">Copyright 2017</p>
+			</div>
+		</footer>
+		<script src="js/jquery/jquery-3.2.1.min.js"></script>
+		<script src="js/slick/slick.min.js"></script>
+		<script src="js/tether/tether.min.js"></script>
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<script src="js/shuffle/shuffle.min.js"></script>
+		<script src="js/nouislider/nouislider.min.js"></script>
+		<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="js/bootstrap_select/bootstrap-select.min.js"></script>
+		<script src="js/slick-lightbox/slick-lightbox.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
