@@ -18657,7 +18657,7 @@ main.main.-pt_toplg {
 
 .section-coaches {
   padding-top: 60px;
-  background: url(../images/section-coaches-img-01.jpg) no-repeat center top/cover;
+  background: url(../images/section-coaches-img-02.jpg) no-repeat center top/cover;
 }
 
 .section-coaches .nav a {
@@ -19795,6 +19795,10 @@ main.main.-pt_toplg {
   background: url(../images/section-testimonials-bg-01.jpg) no-repeat center 0/cover;
   padding-left: 8.333%;
   padding-right: 100px;
+}
+
+.section-contact .half.-content {
+  background: url(../images/section-coaches-img-02.jpg) no-repeat center top/cover;
 }
 
 .section-contact .section-heading {
